@@ -157,8 +157,8 @@ $colors: (
 
 Functions and Mixins follow a similar rule as variables.
 ```scss
-// Use block level variable naming convention for parameters.
-@function global-function($__font-family) {
+// Use local or block level variable naming convention for parameters.
+@function global-function($_font-family) {
   // @return ...
 }
 
