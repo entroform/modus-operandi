@@ -23,7 +23,7 @@ I think it is a good idea to have a folder dedicated for `globals`.
 - views
 - app
 - _reset.scss
-- globals
+- global
 -- _index.scss
 -- variables
 --- _index.scss
