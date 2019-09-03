@@ -143,6 +143,34 @@ const y = point.y;
 const { x, y } = point;
 ```
 
+## undefined vs null
+
+Use `null` for when you explicitly mean "the value you are looking for does not exist, unreachable, or unavailable" and
+use  `undefined` for when "the value you are looking for did not exist and was never defined".
+
+## Overloads
+
+The order should be from **most** specific to **least** specific.
+Additionally, use line-break in between overloads if the parameters are multi-line.
+
+```typescript
+function something(c: Cat): boolean;
+function something(a: Animal): number;
+function something(a: any): any {
+  // Do something.
+}
+
+function somethingElse(
+  a: number,
+  b: number,
+): number;
+
+function somethingElse(
+  a: number,
+  b: any,
+): boolean;
+```
+
 ## Classes
 
 ## Links
