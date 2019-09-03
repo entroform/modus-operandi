@@ -148,6 +148,33 @@ const { x, y } = point;
 Use `null` for when you explicitly mean "the value you are looking for does not exist, unreachable, or unavailable" and
 use  `undefined` for when "the value you are looking for did not exist and was never defined".
 
+
+## Functions & Methods
+
+Always add trailing-comma, when parameters are multiline, unless you are using spread syntax.
+
+```typescript
+// bad
+function something(
+  a: number,
+  b: number,
+  c: number
+);
+
+// good
+function something(
+  a: number,
+  b: number,
+  c: number,
+);
+
+// good
+function something(
+  a: number,
+  ...c: number[]
+);
+```
+
 ## Overloads
 
 The order should be from **most** specific to **least** specific.
@@ -172,6 +199,11 @@ function somethingElse(
 ```
 
 ## Classes
+
+### Order
+
+`properties`, `constructor`, `methods`
+`public`, `protected`, `private`, `static`
 
 ## Links
 
