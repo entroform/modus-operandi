@@ -217,3 +217,5 @@ function somethingElse(
 - [Microsoft DotNet Design Guidelines](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/naming-guidelines)
 - https://dmitripavlutin.com/coding-like-shakespeare-practical-function-naming-conventions/
 - https://medium.com/coding-skills/clean-code-101-meaningful-names-and-functions-bf450456d90c
+- https://basarat.gitbooks.io/typescript/docs/styleguide/styleguide.html#enum
+- 
