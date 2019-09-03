@@ -14,7 +14,7 @@
   
 ## Use Multiple Lines
 
-When there are more than one attributes break them into multiple lines.
+When there are more than one attributes, break them into multiple lines.
 
 ```html
 <input

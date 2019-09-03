@@ -1,7 +1,7 @@
 # SASS Style Guide
 
 - Use soft tabs (2 spaces) for indentation.
-- Avoid using Ids.
+- Avoid using ids.
 - Always add a new line in-between rules.
 - Use `camelCase` in between dashes.
 
