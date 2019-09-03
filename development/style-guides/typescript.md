@@ -1,6 +1,8 @@
 # Typescript Style Guide
 
 - Use soft tabs (2 spaces) for indentation.
+- Always use single quotes instead of double quotes.
+- Use semicolons.
 
 ## Naming Conventions
 
@@ -42,6 +44,10 @@ interface Size {
   height: number;
 }
 ```
+
+## Trailing-comma
+
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Trailing_commas
 
 ## Variables
 
