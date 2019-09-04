@@ -171,6 +171,12 @@ Functions and Mixins follow a similar rule as variables.
 }
 ```
 
+## Naming Guides
+
+`default`, `base`
+
+`x-small`, `small`, `medium`
+
 ## Links
 
 - [Airbnb's CSS/SASS Styleguide](https://github.com/airbnb/css)
