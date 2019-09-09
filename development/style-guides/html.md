@@ -1,5 +1,8 @@
 # HTML Style Guide
 
+- Use soft tabs (2 spaces) for indentation.
+- Always use double quotes.
+
 ## Attribute Order
 
 - `class`
@@ -22,5 +25,6 @@ When there are more than one attributes, break them into multiple lines.
   name="name"
   data-target="form-1"
   type="text"
-  value="Andrew">
+  value="Andrew"
+>
 ```
