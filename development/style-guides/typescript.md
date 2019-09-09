@@ -8,13 +8,12 @@
   - [Naming Conventions](#naming-conventions)
   - [Import](#import)
   - [Interfaces](#interfaces)
-  - [Trailing-comma](#trailing-comma)
+  - [Trailing Comma](#trailing-comma)
   - [Variables](#variables)
   - [Spacing](#spacing)
   - [Control Statements](#control-statements)
   - [Destructuring](#destructuring)
-  - [undefined vs null](#undefined-vs-null)
-  - [Functions & Methods](#functions--methods)
+  - [Undefined vs Null](#undefined-vs-null)
   - [Overloads](#overloads)
   - [Classes](#classes)
     - [Order](#order)
@@ -61,13 +60,66 @@ import {
 Do not use "I" as prefix for interface names.
 
 ```typescript
+// Bad
+interface ISize {
+  width: number;
+  height: number;
+}
+
+// Good
 interface Size {
   width: number;
   height: number;
 }
+
+// Okay?
+interface IPhone {
+  //...
+}
 ```
 
-## Trailing-comma
+## Trailing Comma
+
+Use traling commas for `objects`, `literal types`, `functions`, when they are multi-line.
+
+**Example**
+```typescript
+// Bad
+const pokemons = [
+  'jynx',
+  'garbodor',
+  'weezing'
+];
+
+// Good
+const pokemons = [
+  'pikachu',
+  'eeve',
+  'mew',
+];
+
+const pokemon = {
+  name: 'pikachu',
+  type: 'electric',
+  color: 'yellow',
+};
+
+function doSomething(
+  what,
+  when,
+  where,
+) {
+ // do something...
+}
+
+// rest element cannot have trailing comma
+function doSomething(
+  when,
+  ...things[]
+) {
+  // do things...
+}
+```
 
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Trailing_commas
 
@@ -171,37 +223,10 @@ const y = point.y;
 const { x, y } = point;
 ```
 
-## undefined vs null
+## Undefined vs Null
 
 Use `null` for when you explicitly mean "the value you are looking for does not exist, unreachable, or unavailable" and
 use  `undefined` for when "the value you are looking for did not exist and was never defined".
-
-
-## Functions & Methods
-
-Always add trailing-comma, when parameters are multiline, unless you are using spread syntax.
-
-```typescript
-// bad
-function something(
-  a: number,
-  b: number,
-  c: number
-);
-
-// good
-function something(
-  a: number,
-  b: number,
-  c: number,
-);
-
-// good
-function something(
-  a: number,
-  ...c: number[]
-);
-```
 
 ## Overloads
 
