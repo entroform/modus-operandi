@@ -22,7 +22,7 @@
 
 ## General
 
-- Use soft tabs (2 spaces) for indentation.
+- Use soft tabs (**2 spaces**) for indentation.
 - Always use single quotes instead of double quotes.
 - Use semicolons.
 

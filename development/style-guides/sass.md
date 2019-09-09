@@ -20,8 +20,8 @@
 
 ## General
 
-- Use soft tabs (2 spaces) for indentation.
-- Avoid using ids.
+- Use soft-tabs (**2 spaces**) for indentation.
+- Avoid using **id**s.
 - Always add a new line in-between rules.
 - Use `camelCase` in between dashes.
 
