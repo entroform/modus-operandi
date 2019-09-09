@@ -1,5 +1,27 @@
 # Typescript Style Guide
 
+## Table of Contents
+
+- [Typescript Style Guide](#typescript-style-guide)
+  - [Table of Contents](#table-of-contents)
+  - [General](#general)
+  - [Naming Conventions](#naming-conventions)
+  - [Import](#import)
+  - [Interfaces](#interfaces)
+  - [Trailing-comma](#trailing-comma)
+  - [Variables](#variables)
+  - [Spacing](#spacing)
+  - [Control Statements](#control-statements)
+  - [Destructuring](#destructuring)
+  - [undefined vs null](#undefined-vs-null)
+  - [Functions & Methods](#functions--methods)
+  - [Overloads](#overloads)
+  - [Classes](#classes)
+    - [Order](#order)
+  - [Links](#links)
+
+## General
+
 - Use soft tabs (2 spaces) for indentation.
 - Always use single quotes instead of double quotes.
 - Use semicolons.

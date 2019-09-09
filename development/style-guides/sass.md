@@ -1,5 +1,25 @@
 # SASS Style Guide
 
+## Table of Contents
+
+- [SASS Style Guide](#sass-style-guide)
+  - [Table of Contents](#table-of-contents)
+  - [General](#general)
+  - [Use BEM](#use-bem)
+  - [Directory Structure](#directory-structure)
+  - [Naming Conventions](#naming-conventions)
+    - [Prefixes](#prefixes)
+  - [Naming Class Selectors](#naming-class-selectors)
+    - [Declarations](#declarations)
+    - [Naming Variables](#naming-variables)
+    - [Maps](#maps)
+    - [Functions, Mixins, and Controls](#functions-mixins-and-controls)
+  - [Naming Guides](#naming-guides)
+  - [Links](#links)
+  - [Resources](#resources)
+
+## General
+
 - Use soft tabs (2 spaces) for indentation.
 - Avoid using ids.
 - Always add a new line in-between rules.
