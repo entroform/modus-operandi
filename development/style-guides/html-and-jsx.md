@@ -1,4 +1,4 @@
-# HTML Style Guide
+# HTML and JSX Style Guide
 
 - Use soft tabs (2 spaces) for indentation.
 - Always use double quotes.
