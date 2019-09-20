@@ -5,6 +5,7 @@
 - [Typescript Style Guide](#typescript-style-guide)
   - [Table of Contents](#table-of-contents)
   - [General](#general)
+  - [Why 2 spaces?](#why-2-spaces)
   - [Naming Conventions](#naming-conventions)
   - [Import](#import)
   - [Interfaces](#interfaces)
@@ -24,6 +25,25 @@
 - Use soft tabs (**2 spaces**) for indentation.
 - Always use single quotes instead of double quotes.
 - Use semicolons.
+
+## Why 2 spaces?
+
+- It is more congruent with majority ot javascript codebase.
+
+**Example**
+
+To avoid mixing tabs and spaces in the case of formating.
+
+Here I would have to fix tab and spaces if I wanted to align `isSomething` and `isSomethingElse`.
+
+```typescript
+if (
+       isSomething()
+    && isSomethingElse()
+) {
+ // blah.
+}
+```
 
 ## Naming Conventions
 
