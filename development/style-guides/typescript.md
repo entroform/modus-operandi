@@ -29,15 +29,14 @@
 ## Why 2 spaces?
 
 - Saves horizontal space.
-- It is more congruent with majority ot javascript codebase.
+- It is more congruent with majority of javascript codebase online.
 - Since most documentation on `github` and `markdowns` online are using `2 spaces`,
 there is better and easier connection when reading them and looking at your codebase.
+- To avoid mixing tabs and spaces in the case of formating.
 
 **Example**
 
-To avoid mixing tabs and spaces in the case of formating.
-
-Here I would have to fix tab and spaces if I wanted to align `isSomething` and `isSomethingElse`.
+Here I would have to mix tab and spaces if I wanted to align `isSomething` and `isSomethingElse`.
 
 ```typescript
 if (
