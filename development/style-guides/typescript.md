@@ -28,7 +28,10 @@
 
 ## Why 2 spaces?
 
+- Saves horizontal space.
 - It is more congruent with majority ot javascript codebase.
+- Since most documentation on `github` and `markdowns` online are using `2 spaces`,
+there is better and easier connection when reading them and looking at your codebase.
 
 **Example**
 
